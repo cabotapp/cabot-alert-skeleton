@@ -3,7 +3,7 @@ from cabot.cabotapp.alert import AlertPlugin, AlertPluginUserData
 
 class SkeletonAlert(AlertPlugin):
     name = "Skeleton"
-    author = "Jonathan Balls"
+    author = "Jack Skellington"
 
     def send_alert(self, service, users, duty_officers):
         """Implement your send_alert functionality here."""
